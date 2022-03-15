@@ -1,17 +1,17 @@
 package interviewscenario;
 
-//import java.util.Arrays;
+import java.util.Arrays;
 
 public class WordCountSort
 {
  public static void main(String[]args)
  {
-	 String s1 = " I am Indian . I live in India . India has 27 states";
+	 String s1 = "I am Indian . I live in India . India has 27 states";
 	 String[] s2 = s1.split(" ");
 	 
 	 System.out.println(s1);
 	 
-	 //System.out.println(Arrays.toString(s2) + " , ");
+	 System.out.println(Arrays.toString(s2) + " , ");
 	 
 	 for (int i = 0 ; i < s2.length ; i++)
 	 {
